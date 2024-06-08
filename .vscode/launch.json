@@ -1,0 +1,11 @@
+{
+	"configurations": [
+	{
+		"type": "java",
+		"name": "Launch Java Program",
+		"request": "launch",
+		"mainClass": "org.fife.ui.rsyntaxtextarea.demo.RSyntaxTextAreaDemoApp",
+		"vmArgs": "-javaagent:/Users/karlvr/gin/gin-agent-1.7.0.jar=output=/Users/karlvr/gin/rsyntax,sample=20,collect=1,batch=60"
+	}
+	]
+}
