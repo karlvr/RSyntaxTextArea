@@ -2185,7 +2185,7 @@ private boolean fractionalFontMetricsEnabled;
 		// WebLaF).  So unfortunately it's safest to do this here, with a flag
 		// to only allow it to happen once.
 		if (metricsNeverRefreshed) {
-			refreshFontMetrics(getGraphics2D(getGraphics()));
+			refreshFontMetrics(getGraphics2D(g));
 			metricsNeverRefreshed = false;
 		}
 
